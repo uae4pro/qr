@@ -55,8 +55,8 @@ const Header = () => {
               )}
             </div>
             
-            <button className="btn btn-secondary">{t('login')}</button>
-            <button className="btn btn-primary">{t('getStarted')}</button>
+            <a href="https://app--menu-craft-6678e952.base44.app" className="btn btn-secondary" target="_blank" rel="noopener noreferrer">{t('login')}</a>
+            <a href="https://app--menu-craft-6678e952.base44.app" className="btn btn-primary" target="_blank" rel="noopener noreferrer">{t('getStarted')}</a>
           </div>
 
           {/* Mobile Menu Button */}
@@ -75,8 +75,8 @@ const Header = () => {
             <a href="#features" onClick={() => scrollToSection('features')}>{t('featuresTitle')}</a>
             <a href="#pricing" onClick={() => scrollToSection('pricing')}>{t('pricing')}</a>
             <div className="mobile-actions">
-              <button className="btn btn-secondary">{t('login')}</button>
-              <button className="btn btn-primary">{t('getStarted')}</button>
+              <a href="https://app--menu-craft-6678e952.base44.app" className="btn btn-secondary" target="_blank" rel="noopener noreferrer">{t('login')}</a>
+              <a href="https://app--menu-craft-6678e952.base44.app" className="btn btn-primary" target="_blank" rel="noopener noreferrer">{t('getStarted')}</a>
             </div>
           </div>
         )}

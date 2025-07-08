@@ -126,9 +126,14 @@ const Pricing = () => {
                 ))}
               </ul>
 
-              <button className="btn btn-primary btn-lg">
+              <a
+                href="https://app--menu-craft-6678e952.base44.app"
+                className="btn btn-primary btn-lg"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 {plan.buttonText}
-              </button>
+              </a>
             </div>
           ))}
         </div>

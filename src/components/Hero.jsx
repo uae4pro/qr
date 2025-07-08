@@ -135,6 +135,15 @@ const Hero = () => {
                 <button type="submit" className="btn btn-primary btn-lg">
                   {t('submit')}
                 </button>
+                <a
+                  href="https://app--menu-craft-6678e952.base44.app"
+                  className="btn btn-secondary btn-lg"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  style={{ marginTop: '0.5rem' }}
+                >
+                  {t('startFree')}
+                </a>
               </form>
             ) : (
               <div className="success-message">
@@ -147,6 +156,15 @@ const Hero = () => {
                     <p>Scan this code to access your menu</p>
                   </div>
                 )}
+                <a
+                  href="https://app--menu-craft-6678e952.base44.app"
+                  className="btn btn-primary btn-lg"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  style={{ marginTop: '1rem' }}
+                >
+                  {t('getStarted')}
+                </a>
               </div>
             )}
           </div>
